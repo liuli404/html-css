@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单域</title>
+</head>
+
+<body>
+    <!-- form 会把表单域中的元素提交给服务器 -->
+    <form action="demo.php" method="POST" name="123">
+        <!-- text 定义单行输入的字段，用户可在其中输入文本，默认宽度为20个字符, maxlength最大字符-->
+        用户名：<input type="text" name="username" value="输入用户名" maxlength="6"> <br>
+        <!-- password 定义密码框，不会显示内容 -->
+        密码：<input type="password" name="password" id=""> <br>
+        <!-- redio 单选按钮，name保证相同，value默认值，传给后台的值，checked默认选中-->
+        性别：
+
+        男：<input type="radio" name="sex" id="nan" value="男">
+        女：<input type="radio" name="sex" id="nv" value="女" checked><br>
+        <!-- checkbox 复选框，name保证相同，value默认值，传给后台的值，checked默认选中-->
+        爱好：<br>
+        体育 <input type="checkbox" name="hobby" id="" value="体育">
+        新闻 <input type="checkbox" name="hobby" id="" value="新闻">
+        娱乐 <input type="checkbox" name="hobby" id="" value="娱乐" checked> <br>
+        <!-- submit 提交按钮 -->
+        <input type="submit" name="" id="" value="免费注册">
+        <!-- reset 重置按钮 -->
+        <input type="reset" value="重新填写">
+        <!-- button 普通按钮，搭配js使用-->
+        <input type="button" value="获取验证码"> <br>
+        <!-- file 上传按钮 -->
+        上传头像：<input type="file" name="" id="">
+    </form>
+</body>
+
+</html>

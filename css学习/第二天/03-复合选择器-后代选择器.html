@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 复合选择器是由 两个或多个基础选择器组合而成的  */
+        /* 选出 ol 里面的 li 选出来改为 pink 色 */
+        ol li {
+            color: pink;
+        }
+
+        /* 选出 ol 里面的 li 里面的 span 改为 pink 色 */
+        ol li span {
+            color: red;
+        }
+
+        /* 选出第二个 ul 里面的 li 里面的 span 改为 pink 色 */
+        .nav li span {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子</li>
+        <li><span>我是ol的孙子</span></li>
+    </ol>
+    <ul>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+    </ul>
+    <ul class="nav">
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li><span>孙子</span></li>
+    </ul>
+    <img src="../../images/课程总结/后代选择器.png" alt="">
+</body>
+
+</html>
