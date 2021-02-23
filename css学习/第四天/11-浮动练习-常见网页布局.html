@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .top {
+            height: 150px;
+            background-color: blue;
+        }
+
+        .banner {
+            height: 250px;
+            width: 1230px;
+            background-color: orangered;
+            margin: 10px auto 10px;
+        }
+
+        .box1 {
+            height: 100px;
+            width: 1230px;
+            background-color: gray;
+            margin: 0 auto 10px;
+        }
+
+        .box {
+            height: 400px;
+            width: 1230px;
+            background-color: gray;
+            margin: 10px auto 10px;
+        }
+
+        .footer {
+            height: 150px;
+            background-color: gray;
+            margin: 0 auto 10px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .box li {
+            float: left;
+            height: 400px;
+            width: 300px;
+            background-color: pink;
+            margin-right: 10px;
+        }
+
+        .box .last {
+            margin-right: 0;
+        }
+
+        .box1 li {
+            float: left;
+            height: 100px;
+            width: 300px;
+            background-color: skyblue;
+            margin-right: 10px;
+        }
+
+        .box1 .last {
+            margin-right: 0;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="top">top</div>
+    <div class="banner">banner</div>
+    <div class="box1">
+        <ol>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li class="last">4</li>
+        </ol>
+    </div>
+    <div class="box">
+        <ol>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li class="last">4</li>
+        </ol>
+    </div>
+    <div class="footer">footer</div>
+</body>
+
+</html>
