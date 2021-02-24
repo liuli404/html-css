@@ -100,11 +100,76 @@ a {
 }
 
 .subnav {
+    float: left;
     height: 420px;
     width: 190px;
     background-color: rgba(0, 0, 0, .3);
 }
 
 .subnav ul li {
-    font-size: 14;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 20px;
+}
+
+.subnav ul li a {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+}
+
+.subnav ul li:hover {
+    background-color: #00a4ff;
+}
+
+.subnav ul li a span {
+    float: right;
+}
+
+.course {
+    float: right;
+    width: 230px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.course h3 {
+    height: 48px;
+    background-color: #9bceea;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.course .bd {
+    padding: 0 20px;
+}
+
+.course .bd ul li {
+    padding: 14px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.course .bd ul li h4 {
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+.course .bd ul li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.course .bd .more {
+    display: block;
+    height: 38px;
+    margin-top: 5px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+    color: #00a4ff;
+    font-weight: 700;
 }
