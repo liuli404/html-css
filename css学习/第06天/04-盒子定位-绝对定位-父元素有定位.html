@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grandfather {
+            position: relative;
+            top: 10px;
+            left: 10px;
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+            margin: 20px;
+            background-color: #ccc;
+        }
+        
+        .father {
+            position: relative;
+            top: 10px;
+            left: 10px;
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            background-color: skyblue;
+        }
+        
+        .son {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- 如果父元素有定位（相对、绝对、固定定位），则以最近一级有定位祖先元素为参考点移动位置 -->
+    <div class="grandfather">
+        <div class="father">
+            <div class="son"></div>
+        </div>
+    </div>
+</body>
+
+</html>
