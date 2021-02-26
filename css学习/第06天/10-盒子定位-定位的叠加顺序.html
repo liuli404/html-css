@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+        
+        .box1 {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 3;
+            width: 400px;
+            height: 300px;
+            background-color: blue;
+        }
+        
+        .box2 {
+            position: fixed;
+            top: 50px;
+            left: 80px;
+            z-index: 2;
+            width: 400px;
+            height: 300px;
+            background-color: pink;
+        }
+        
+        .box3 {
+            position: fixed;
+            top: 80px;
+            left: 50px;
+            z-index: 0;
+            width: 400px;
+            height: 300px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 使用 z-index 来判断z轴的距离，数值越大，越靠上-->
+    <div class="box1">下层</div>
+    <div class="box2">中层</div>
+    <div class="box3">上层</div>
+</body>
+
+</html>
