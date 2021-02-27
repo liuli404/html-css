@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .page {
+            margin-top: 100px;
+            text-align: center;
+        }
+        
+        .page a {
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            background-color: #f7f7f7;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            color: #333;
+            text-decoration: none;
+            line-height: 36px;
+        }
+        
+        .page .prev,
+        .page .next {
+            width: 80px;
+            height: 36px;
+        }
+        
+        .page input {
+            width: 46px;
+            height: 36px;
+            border: 1px solid #ccc;
+            background-color: #f7f7f7;
+            outline: none;
+        }
+        
+        .page button {
+            width: 46px;
+            height: 36px;
+            border: 1px solid #ccc;
+            background-color: #f7f7f7;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <a href="#" class="prev">&lt;&lt;上一页</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#" class="next">下一页&gt;&gt;</a> 到第
+        <input type="text">页
+        <button>确定</button>
+    </div>
+</body>
+
+</html>
