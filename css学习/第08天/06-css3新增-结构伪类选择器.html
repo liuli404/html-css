@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 选择第一个盒子 */
+        
+        ul li:first-child {
+            color: red;
+        }
+        /* 选择最后一个盒子 */
+        
+        ul li:last-child {
+            color: blue;
+        }
+        /* 选择第四个盒子 */
+        
+        ul li:nth-child(4) {
+            color: pink;
+        }
+        /* 选择偶数盒子 even*/
+        
+        ul li:nth-child(even) {
+            background-color: yellow;
+        }
+        /* 选择奇数盒子 odd*/
+        
+        ul li:nth-child(odd) {
+            background-color: skyblue;
+        }
+        /* 选择n （全选）盒子 */
+        
+        ol li:nth-child(n) {
+            background-color: skyblue;
+        }
+        /* 选择第五和第十盒子 */
+        
+        ol li:nth-child(5n) {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+    </ol>
+    <img src="../../images/课程总结/结构为类.png" alt="">
+</body>
+
+</html>
