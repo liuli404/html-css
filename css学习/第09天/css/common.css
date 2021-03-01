@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+/* 版心 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 快捷导航栏 */
+
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+
+/* 快捷导航-左侧 */
+
+.shortcut li {
+    float: left;
+    font-size: 12px;
+    color: #666666;
+}
+
+
+/* 分隔符制作 */
+
+.shortcut .fr li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    margin: 10px 14px;
+    background-color: #ccc;
+}
+
+
+/* 下拉三角制作 */
+
+.arrow-icon::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+
+
+/* header头部制作 */
+
+.header {
+    position: relative;
+    height: 55px;
+    margin-top: 27px;
+}
+
+
+/* logo制作 */
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 175px;
+}
+
+.logo a {
+    display: block;
+    height: 61px;
+    width: 171px;
+    background: url(../../第09天/images/logo.png) no-repeat;
+    /* 隐藏文字 */
+    font-size: 0px;
+}
+
+.search {
+    position: absolute;
+    left: 344px;
+    height: 36px;
+    width: 538px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 100%;
+    padding: 10px;
+}
+
+.search button {
+    float: right;
+    width: 80px;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #b1191a;
+}
+
+
+/* 热词模块制作 */
+
+.hotwords {
+    position: absolute;
+    left: 344px;
+    bottom: 0px;
+}
+
+.hotwords a {
+    padding-left: 12px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.hotwords a:nth-child(1) {
+    color: #c81623;
+}
+
+
+/* 购物车模块制作 */
+
+.shopcar {
+    position: absolute;
+    right: 64px;
+    top: 0px;
+    width: 140px;
+    height: 35px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.shopcar a::before {
+    content: '\e93a';
+    font-family: 'icomoon';
+    margin-right: 5px;
+    color: #c81623;
+}
+
+.shopcar a::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+
+.count {
+    position: absolute;
+    left: 105px;
+    top: -7px;
+    height: 14px;
+    line-height: 14px;
+    color: #fefefe;
+    background-color: #e60012;
+    font-size: 12px;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0px;
+}
+
+
+/* 导航模块制作 */
+
+.nav {
+    height: 47px;
+    margin-top: 24px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+    float: left;
+    height: 47px;
+    width: 210px;
+    background-color: #b1191a;
+}
+
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    line-height: 47px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.dropdown .dd {
+    width: 100%;
+    height: 467px;
+    background-color: #c81623;
+}
+
+.dropdown .dd li {
+    height: 31px;
+    padding-left: 10px;
+    margin-left: 2px;
+}
+
+.dropdown .dd li:hover {
+    background-color: #fff;
+}
+
+.dropdown .dd li a {
+    width: 210px;
+    line-height: 31px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.dropdown .dd li a::after {
+    float: right;
+    margin-right: 10px;
+    content: '\e920';
+    font-family: 'icomoon';
+}
+
+.dropdown .dd li:hover a {
+    color: #c81623;
+}
+
+.navitems li {
+    float: left;
+}
+
+.navitems li a {
+    padding: 0 26px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 16px;
+    color: #333333;
+}
