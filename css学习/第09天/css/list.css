@@ -1,0 +1,43 @@
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 6px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.style_red {
+    color: #c81523;
+}
+
+.sk_list li {
+    float: left;
+    margin: 6px 26px;
+}
+
+.sk_list li a {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.sk_con ul li {
+    float: left;
+    margin: 8px 22px;
+}
+
+.sk_con li a {
+    display: block;
+    font-size: 14px;
+    color: #666666;
+}
+
+.sk_bd li {
+    float: left;
+    margin-right: 8px;
+    border: 1px solid transparent;
+}
+
+.sk_bd li:hover {
+    border: 1px solid red;
+}
